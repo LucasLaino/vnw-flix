@@ -1,0 +1,15 @@
+@media (max-width: 1280px) {   
+    .cabecalho {
+        padding: 30px;
+    }
+    
+    .filmes .container-filmes {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .filmes {
+        padding: 30px;
+    }
+}
