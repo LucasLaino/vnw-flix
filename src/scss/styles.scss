@@ -7,7 +7,9 @@ $fonte-principal: Poppins, sans-serif;
 
 html {
     color: #fff;
-    background-image: url(../img/netflix_bg-img.jpg);
+    background: 
+        linear-gradient(rgba(0,0,0,0.5)),
+        url(../img/netflix_bg-img.jpg);
 }
 
 body {
@@ -28,6 +30,20 @@ body {
         line-height: 55px;
         transition: 0.3s ease-out;
 
+        &:hover {
+            color: $red;
+        }
+    }
+
+    .header-nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .header-nav ul li {
+        font-size: 20px;
+        transition: 0.3s ease-in-out;
+        
         &:hover {
             color: $red;
         }
