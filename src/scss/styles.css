@@ -73,14 +73,20 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  font-weight: 600;
   opacity: 0;
   transition: 0.3s;
   padding: 20px;
 }
+.filmes .card-filme .descricao-filme {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 .filmes .card-filme .assistir-agora {
   padding-top: 40px;
   color: #FF0000;
+}
+.filmes .card-filme .duracao-filme {
+  font-size: 14px;
 }
 .filmes .card-filme:hover .filme-infos {
   opacity: 0.8;
